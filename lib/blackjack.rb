@@ -60,6 +60,7 @@ def runner
   # z = 0
   until x > 21
     x = hit?(x)
+    display_card_total(x)
   end
   end_game(x)
   
